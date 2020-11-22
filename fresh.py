@@ -28,7 +28,7 @@ $$ |   $$ |      \$$$$$$$\ $$$$$$$  |$$ |  $$ |$$\ $$$$$$$  |\$$$$$$$ |
 Author: Joel Margolis (@0xteknogeek)
 Version: {}\n\n'''.format(VERSION)
 
-NS_LIST_URL = 'http://public-dns.info/nameservers.txt'
+NS_LIST_URL = 'https://public-dns.info/nameserver/us.txt'
 
 # checks if valid IP address
 def is_valid_ip(parser, addr):
